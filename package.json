@@ -1,13 +1,9 @@
 {
-  "name": "new-age",
-  "title": "New Age",
+  "name": "Denver Does Design",
+  "title": "Denver Does Design",
   "version": "3.3.7",
-  "homepage": "http://startbootstrap.com/template-overviews/new-age",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
+  "homepage": "http://www.denverdoesdesign.com",
+  "author": "Jonathan Hemnes",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -22,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
+    "url": "https://gitlab.com/Jhemnes/denver-does-design"
   },
   "dependencies": {
     "simple-line-icons": "^2.3.2"
