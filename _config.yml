@@ -1,7 +1,7 @@
 # Site settings
-title: Antonio Trento, theme Jeky New Age, the start Bootstrap themplate build for jekyll
+title: Denver Does Design
 email:
-description: A jekyll template for landing pages, portfolio and blogging
+description: Denver Does Design
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://jhemnes.gitlab.io/denver-does-design" # the base hostname & protocol for your site
@@ -13,7 +13,7 @@ url: "https://jhemnes.gitlab.io/denver-does-design" # the base hostname & protoc
 
 #google_analytics: "XXXXXXX"
 #addthis_id: ra-5644da281510c62f
-disqus_account: jeky-new-age
+#disqus_account: jeky-new-age
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
