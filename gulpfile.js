@@ -50,6 +50,10 @@ gulp.task('minify-js', function() {
         }))
 });
 
+gulp.task('watch', () => {
+    gulp.watch('less/new-age.less', 'less');
+})
+
 // Copy vendor libraries from /node_modules into /vendor
 gulp.task('copy', function() {
     gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
