@@ -18,11 +18,11 @@ url: "https://jonathanhemnes.github.io/denver-does-design" # the base hostname &
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
-    url: https://twitter.com/lantoniotrento
+    url: https://twitter.com/denverdoesdesign
   - title: facebook
-    url: https://facebook.com/lantoniotrento
-  - title: google-plus
-    url: https://plus.google.com/+AntoniotrentoIt
+    url: https://facebook.com/denverdoesdesign
+  - title: instagram
+    url: https://instagram.com/denverdoesdesign
   #- title: github
   #  url: http://github.com/jekyll
 
