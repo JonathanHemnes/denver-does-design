@@ -5,6 +5,26 @@ $grey: rgb(123,111,93);
 $black: rgb(0,0,0);
 $white: #ffffff;
 
+$screen-sm: 375px;
+$screen-md: 720px;
+$screen-lg: 1200px;
+.hide-sm {
+    @media screen and (max-width: $screen-md) {
+        display: none;
+    }
+}
+
+
+.logo-img {
+    @media screen and (max-width: $screen-md) {
+        width: 125px;
+    } 
+    @media screen and (min-width: $screen-md) {
+        width: 200px
+    }
+    
+}
+
 .logo-container {
     margin-top:10%;
 }
