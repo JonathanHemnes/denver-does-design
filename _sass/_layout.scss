@@ -1,3 +1,14 @@
+$yellow: rgb(255,195,35);
+$orange: rgb(217,97,1);
+$blue: rgb(34,165,185);
+$grey: rgb(123,111,93);
+$black: rgb(0,0,0);
+$white: #ffffff;
+
 .logo-container {
     margin-top:10%;
+}
+
+.meet-dark-side {
+    background: $blue;
 }
