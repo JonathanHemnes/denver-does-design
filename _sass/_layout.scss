@@ -31,6 +31,7 @@ $screen-lg: 1200px;
 
 header {
     position: relative;
+    min-height: 667px;
     .logo-container {
         position: absolute;
         bottom: 0;
