@@ -1,12 +1,16 @@
-
-    <section id="supporters" class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h2>SUPPORTING ORGS</h2>
-                        <p>List of logos here with links</p>
-                    </div>
+<section id="supporters" class="features">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2>SUPPORTING ORGS</h2>
                 </div>
             </div>
-    </section>
+        </div>
+        <div class="vendor-logos">
+            {% for image in site.static_files %} 
+                {% if image.path contains 'img/logos' %}
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="logo"/> 
+                {% endif %} 
+            {% endfor %}
+        </div>
+</section>

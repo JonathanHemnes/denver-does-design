@@ -78,6 +78,17 @@ header {
 
 }
 
+.vendor-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .logo {
+        width: 15%;
+        padding: 1%;
+    }
+}
 
 
 .meet-dark-side {
