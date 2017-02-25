@@ -30,21 +30,48 @@ header {
     .logo-container {
         position: absolute;
         bottom: 0;
-        left: 30%;
-        img {
-            width: 100%;
+        @media screen and (max-width: $screen-md) {
+            img {
+                width: 100%;
+            }
+        }
+        @media screen and (min-width: $screen-md) {
+            left: 30%;
+            img {
+                width: 100%;
+            }
         }
     }
 
     .text-container {
         position: absolute;
-        width: 40%;
-        bottom: 30%;
-        left: 5%;
         p {
             color: $white;
-            font-size: 34px;
             font-weight: bold;
+        }
+        button {
+            background-color: $orange;
+        }
+        @media screen and (max-width: $screen-md) {
+            top:15%;
+            width: 95%;
+            margin-left: 2.5%;
+            p {
+                font-size: 27px;
+            }
+            button {
+                display: block;
+                margin: auto;
+                margin-top: 15%;
+            }
+        }
+        @media screen and (min-width: $screen-md) {
+            width: 40%;
+            bottom: 30%;
+            left: 5%;
+            p {
+                font-size: 34px;
+            }
         }
     }
 
