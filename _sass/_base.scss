@@ -389,6 +389,12 @@ section {
             background-color: #d73925;
           }
         }
+        &.social-newsletter a {
+          background-color: rgb(217,97,1);
+          &:hover {
+            background-color: darken(rgb(217,97,1), 2%);
+          }
+        }
       }
     }
   }
