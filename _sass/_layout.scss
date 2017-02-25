@@ -54,7 +54,7 @@ header {
             font-weight: bold;
         }
         @media screen and (max-width: $screen-md) {
-            top:15%;
+            top: 10%;
             width: 95%;
             margin-left: 2.5%;
             p {
@@ -63,7 +63,7 @@ header {
             button {
                 display: block;
                 margin: auto;
-                margin-top: 15%;
+                margin-top: 7%;
             }
         }
         @media screen and (min-width: $screen-md) {
