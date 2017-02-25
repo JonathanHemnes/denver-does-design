@@ -85,8 +85,14 @@ header {
     flex-wrap: wrap;
 
     .logo {
-        width: 15%;
-        padding: 1%;
+        @media screen and (max-width: $screen-md) {
+            width: 33%;
+            padding: 1%;
+        }
+        @media screen and (min-width: $screen-md) {
+            width: 15%;
+            padding: 1%;
+        }
     }
 }
 
