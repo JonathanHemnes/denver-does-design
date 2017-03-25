@@ -41,13 +41,13 @@ gulp.task('minify-css', ['less'], function() {
 // Minify JS
 gulp.task('minify-js', function() {
     return gulp.src('js/new-age.js')
-        .pipe(uglify())
-        .pipe(header(banner, { pkg: pkg }))
+        //.pipe(uglify())
+        //.pipe(header(banner, { pkg: pkg }))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('js'))
-        .pipe(browserSync.reload({
-            stream: true
-        }))
+        // .pipe(browserSync.reload({
+        //     stream: true
+        // }))
 });
 
 gulp.task('watch', () => {
