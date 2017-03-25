@@ -16,13 +16,15 @@
 
 html {
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  overflow-x: hidden;
 }
 
 a {
@@ -55,6 +57,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+.navbar {
+    width: 100vw;
 }
 
 .navbar-default {
@@ -362,6 +368,7 @@ section {
     ul.list-social {
       margin-bottom: 0;
       li {
+          padding-top: 10px;
         a {
           display: block;
           height: 80px;
@@ -390,6 +397,12 @@ section {
           }
         }
         &.social-newsletter a {
+          background-color: rgb(217,97,1);
+          &:hover {
+            background-color: darken(rgb(217,97,1), 2%);
+          }
+        }
+        &.social-instagram a {
           background-color: rgb(217,97,1);
           &:hover {
             background-color: darken(rgb(217,97,1), 2%);
