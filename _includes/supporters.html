@@ -2,13 +2,27 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-heading">
-                    <h2>SUPPORTING ORGS</h2>
+                    <h2>PARTNERS</h2>
                 </div>
             </div>
         </div>
         <div class="vendor-logos">
             {% for image in site.static_files %} 
-                {% if image.path contains 'img/logos' %}
+                {% if image.path contains 'img/logos/partners' %}
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="logo"/> 
+                {% endif %} 
+            {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading" style="margin-top: 35px;">
+                    <h2>SPONSORS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="vendor-logos">
+            {% for image in site.static_files %} 
+                {% if image.path contains 'img/logos/sponsors' %}
                     <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="logo"/> 
                 {% endif %} 
             {% endfor %}

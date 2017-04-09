@@ -1,6 +1,6 @@
 $yellow: rgb(255,195,35);
 $orange: rgb(217,97,1);
-$blue: rgb(34,165,185);
+$blue: rgb(4, 101, 169);
 $grey: rgb(123,111,93);
 $black: rgb(0,0,0);
 $white: #ffffff;
@@ -104,10 +104,25 @@ header {
     .dark-sub {
         margin-top: 50px;
     }
+    .portfolio-box-caption {
+        img {
+            height: 320px;
+        }
+    }
+    
 }
 
 .imp-committee {
     background: $orange;
+    p.text-muted {
+        color: white;
+    }
+
+    .service-box {
+        img {
+            width: 100%;
+        }
+    }
 }
 .contact-us {
     background: $yellow;

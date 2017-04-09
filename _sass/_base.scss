@@ -232,6 +232,13 @@ header {
   }
 }
 
+.evolution {
+    margin-top: -15vw;
+    img {
+        width: 100vw;
+    }
+}
+
 section {
   padding: 100px 0;
   h2 {
@@ -257,6 +264,7 @@ section {
   }
   &.features {
     .section-heading {
+        padding-top: 50px;
       margin-bottom: 100px;
       h2 {
         margin-top: 0;
@@ -397,9 +405,9 @@ section {
           }
         }
         &.social-newsletter a {
-          background-color: rgb(217,97,1);
+          background-color: black;
           &:hover {
-            background-color: darken(rgb(217,97,1), 2%);
+            background-color: darken(darkgrey, 50%);
           }
         }
         &.social-instagram a {
@@ -534,6 +542,12 @@ body {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    background: rgb(4, 101, 169);;
+    img {
+        display: block;
+        margin: auto;
+        height: 320px;
+    }
     .portfolio-box-caption {
         color: white;
         opacity: 0;
