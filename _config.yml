@@ -3,7 +3,7 @@ title: Denver Does Design
 email:
 description: Denver Does Design
 
-baseurl: "/denver-does-design" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://jonathanhemnes.github.io/denver-does-design" # the base hostname & protocol for your site
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
