@@ -1,0 +1,27 @@
+- name: ANOVA
+  link: http://www.anovafurnishings.com/
+  image_url: img/logos/sponsors/anova_bw.png
+
+- name: Brilliance_Awards
+  link: http://www.brillianceawards.com/
+  image_url: img/logos/sponsors/BA_bw.png
+
+- name: Initial_AEC
+  link: http://www.initialaec.com/
+  image_url: img/logos/sponsors/Initial_AEC_bw.png
+
+- name: Modern_in_Denver
+  link: http://www.modernindenver.com/
+  image_url: img/logos/sponsors/MID_bw.png
+
+- name: Mountain_Trade_Supply
+  link: http://www.mountaintradesupply.com/
+  image_url: img/logos/sponsors/MTS_bw.png
+
+- name: The_Unfound_Door
+  link: http://www.theunfounddoor.com/
+  image_url: img/logos/sponsors/TUD_bw.png
+
+- name: Vector_works
+  link: http://www.vectorworks.net/
+  image_url: img/logos/sponsors/VW_bw.png

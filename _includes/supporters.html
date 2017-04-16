@@ -7,10 +7,10 @@
             </div>
         </div>
         <div class="vendor-logos">
-            {% for image in site.static_files %} 
-                {% if image.path contains 'img/logos/partners' %}
-                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="logo"/> 
-                {% endif %} 
+            {% for partner in site.data.partners %}
+                <a href={{partner.link}} target="_blank">
+                    <img src="{{ site.baseurl }}{{ partner.image_url }}" alt="image" class="logo"/> 
+                </a>
             {% endfor %}
         </div>
         <div class="row">
@@ -21,10 +21,10 @@
             </div>
         </div>
         <div class="vendor-logos">
-            {% for image in site.static_files %} 
-                {% if image.path contains 'img/logos/sponsors' %}
-                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="logo"/> 
-                {% endif %} 
+            {% for sponsor in site.data.sponsors %}
+                <a href={{sponsor.link}} target="_blank">
+                    <img src="{{ site.baseurl }}{{ sponsor.image_url }}" alt="image" class="logo"/> 
+                </a>
             {% endfor %}
         </div>
 </section>
