@@ -416,6 +416,12 @@ section {
             background-color: darken(rgb(217,97,1), 2%);
           }
         }
+        &.social-calendar a {
+          background-color: #BA2626;
+          &:hover {
+            background-color: darken(#BA2626, 5%);
+          }
+        }
       }
     }
   }
