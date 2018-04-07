@@ -126,6 +126,12 @@ header {
 }
 .contact-us {
     background: $yellow;
+
+    h3 {
+        a {
+            color: black;
+        }
+    }
 }
 
 footer {
