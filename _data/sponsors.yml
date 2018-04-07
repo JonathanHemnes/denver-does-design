@@ -29,3 +29,23 @@
 - name: Vector_works
   link: http://www.vectorworks.net/
   image_url: img/logos/sponsors/VW_bw.png
+
+- name: DVO 
+  link: http://www.dvoeng.com/
+  image_url: img/logos/sponsors/DVO_logo.png
+
+- name: Renegade Brewing 
+  link: http://www.renegadebrewing.com/
+  image_url: img/logos/sponsors/Renegade_logo.jpg
+
+- name: Evolve Lab 
+  link: https://www.evolvebim.com/
+  image_url: img/logos/sponsors/Evolve_logo.png
+
+- name: On Point Scans 
+  link: https://www.evolvebim.com/
+  image_url: img/logos/sponsors/On_point_scans_logo.png
+
+- name: Stoneys Bar and Grill 
+  link: http://www.stoneysbarandgrill.com/
+  image_url: img/logos/sponsors/Stoneys_logo.png

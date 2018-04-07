@@ -7,17 +7,13 @@
   image_url: img/logos/partners/AIA_bw.png
 
 - name: AIGA
-  link: http://www.colorado.aiga.org/
+  link: https://colorado.aiga.org/
   image_url: img/logos/partners/AIGA_bw.png
 
 - name: APA
   link: http://www.apacolorado.org/
   image_url: img/logos/partners/APA_bw.png
   
-- name: APLD
-  link: http://www.apldco.org/
-  image_url: img/logos/partners/APLD_bw.png
-
 - name: ASID
   link: http://www.co.asid.org/
   image_url: img/logos/partners/ASID_bw.png
@@ -25,14 +21,6 @@
 - name: ASLA_CO
   link: http://www.aslacolorado.org/
   image_url: img/logos/partners/ASLA_CO_bw.png
-
-- name: CORENET_CO
-  link: http://www.colorado.corenetglobal.org/
-  image_url: img/logos/partners/CoreNet_bw.png
-
-- name: IALD
-  link: http://www.iald.org/
-  image_url: img/logos/partners/IALD_bw.png
 
 - name: IDSA
   link: http://www.idsa.org/RMT
@@ -54,14 +42,18 @@
   link: http://www.smpscolorado.org/
   image_url: img/logos/partners/SMPS_bw.png
 
-- name: USGBC
-  link: http://www.usgbc.org/usgbc-colorado
-  image_url: img/logos/partners/USGBC_bw.png
-
 - name: WID
   link: http://www.widdenver.org/
   image_url: img/logos/partners/WID_bw.png
 
-- name: Young_Professionals
-  link: http://www.dbiarockymountain.org/
-  image_url: img/logos/partners/YP_bw.png
+- name: NEWH
+  link: http://www.newh.org/
+  image_url: img/logos/partners/newh_logo.png
+
+- name: DEF
+  link: http://www.denverarchitecture.org/
+  image_url: img/logos/partners/DAF_Logo.jpg
+
+- name: USGBC
+  link: https://new.usgbc.org/
+  image_url: img/logos/partners/USGBC_Logo.png
