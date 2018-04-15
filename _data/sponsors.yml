@@ -2,33 +2,9 @@
   link: http://www.anovafurnishings.com/
   image_url: img/logos/sponsors/ANOVA_bw.png
 
-- name: Brilliance_Awards
-  link: http://www.brillianceawards.com/
-  image_url: img/logos/sponsors/BA_bw.png
-
-- name: Initial_AEC
-  link: http://www.initialaec.com/
-  image_url: img/logos/sponsors/Initial_AEC_bw.png
-
-- name: Ladybird_Poppy
-  link: https://www.ladybirdpoppy.com/
-  image_url: img/logos/sponsors/Ladybird.png
-
-- name: Modern_in_Denver
-  link: http://www.modernindenver.com/
-  image_url: img/logos/sponsors/MID_bw.png
-
-- name: Mountain_Trade_Supply
-  link: http://www.mountaintradesupply.com/
-  image_url: img/logos/sponsors/MTS_bw.png
-
 - name: The_Unfound_Door
   link: http://www.theunfounddoor.com/
   image_url: img/logos/sponsors/TUD_bw.png
-
-- name: Vector_works
-  link: http://www.vectorworks.net/
-  image_url: img/logos/sponsors/VW_bw.png
 
 - name: DVO 
   link: http://www.dvoeng.com/
@@ -36,7 +12,7 @@
 
 - name: Renegade Brewing 
   link: http://www.renegadebrewing.com/
-  image_url: img/logos/sponsors/Renegade_logo.jpg
+  image_url: img/logos/sponsors/Renegade_logo.png
 
 - name: Evolve Lab 
   link: https://www.evolvebim.com/
