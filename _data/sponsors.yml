@@ -25,3 +25,11 @@
 - name: Stoneys Bar and Grill 
   link: http://www.stoneysbarandgrill.com/
   image_url: img/logos/sponsors/Stoneys_logo.png
+
+- name: MasterGraphics
+  link: http://www.mg-aec.com/
+  image_url: img/logos/partners/MGaec_Logo.png
+
+- name: Allsteel
+  link: http://www.allsteeloffice.com/
+  image_url: img/logos/partners/Allsteel_logo.png
